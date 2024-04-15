@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <div>test</div>
+    <div>test</div>
+    <div>test</div>
+    <div>test</div>
+    <div>test</div>
+    <div>test</div>
+    <div>test</div>
+    <script>
+        setInterval(() => {
+            const div = document.createElement("div");
+            div.innerHTML = "test";
+            document.body.appendChild(div);
+        }, 1000);
+    </script>
+</body>
+</html>
